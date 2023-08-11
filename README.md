@@ -26,5 +26,5 @@
 - Asegurarse de que este la computadora conectada a la misma red que la Rpi
 - Ingresar el siguiente comando en la terminal “ssh user@192.168.1.4(ip)”
 - Ingresar contraseña de usuario
-- Correr programa de `python3 ./hello-world/hello.py`
-- Correr programa de `python3 ./led-display/main.py`
+- Correr programa de `python3 ./hello-world.py`
+- Correr programa de `python3 ./led.py`
