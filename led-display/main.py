@@ -4,12 +4,12 @@ import time
 
 if __name__ == "__main__":
     mi_led = LED(17)
-
-    times = 3
-
-    for i in range(3):
-        print(f"Blinking {i + 1} time(s)")
+    try: 
+        print("Turning on led")
         mi_led.on()
-        time.sleep(0.3)
-        mi_led.off()
-        time.sleep(0.3)
+        input("Click enter to turn it off")
+    except KeyboardInterrupt: 
+        pass
+
+    print("Turning off led")
+    mi_led.off()
